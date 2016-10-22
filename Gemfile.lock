@@ -151,8 +151,6 @@ DEPENDENCIES
   middleman-livereload
   middleman-minify-html
   middleman-sprockets (~> 4.0.0.rc)
-  tzinfo-data
-  wdm (~> 0.1.0)
 
 BUNDLED WITH
-   1.11.2
+   1.13.6

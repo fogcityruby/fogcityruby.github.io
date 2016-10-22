@@ -1,0 +1,15 @@
+%nav
+  .nav-wrapper.container
+    .brand-logo= link_to "Fog City Ruby", "/index.html"
+    %a.button-collapse{"data-activates" => "mobile-demo", :href => "#"}
+      %i.material-icons menu
+    %ul.right.hide-on-med-and-down
+      %li= link_to 'Attend', "/attend.html"
+      %li= link_to 'Speak', "/speak.html"
+      %li= link_to 'Host', "/host.html"
+      %li= link_to 'Learn More', "/learnmore.html"
+    %ul#mobile-demo.side-nav
+      %li= link_to 'Attend', "/attend.html"
+      %li= link_to 'Speak', "/speak.html"
+      %li= link_to 'Host', "/host.html"
+      %li= link_to 'Learn More', "/learnmore.html"

@@ -21,6 +21,8 @@ page '/*.txt', layout: false
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
+set :haml, { :ugly => true, :format => :html5 }
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
@@ -38,12 +40,8 @@ end
 #   end
 # end
 
-# Build-specific configuration
 configure :build do
-  # Minify CSS on build
   activate :minify_css
-  # Minify HTML on build
   activate :minify_html
-  # Minify Javascript on build
   activate :minify_javascript
 end
