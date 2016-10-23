@@ -1,11 +1,17 @@
-%footer.page-footer
+%footer.footer-overrides.page-footer
   .container
-    .row
-      .col.s3.center
-        = link_to 'Attend', "/attend.html", class: "white-text"
-      .col.s3.center
-        = link_to 'Speak', "/speak.html", class: "white-text"
-      .col.s3.center
-        = link_to 'Host', "/host.html", class: "white-text"
-      .col.s3.center
-        = link_to 'Learn More', "/learnmore.html", class: "white-text"
+    .row.mb0
+      .col.s3.offset-s2
+        %ul
+          %li= link_to 'Attend', "/attend.html", class: "white-text"
+          %li= link_to 'Speak', "/speak.html", class: "white-text"
+      .col.s3
+        %ul
+          %li= link_to 'Host/Sponsor', "/host.html", class: "white-text"
+          %li= link_to 'Learn More', "/learnmore.html", class: "white-text"
+      .col.s4
+        %ul
+          %li= link_to "Join the Meetup", "http://www.meetup.com/fogcityruby", class: "white-text", target: "_blank"
+          %li= link_to "Follow us on Twitter", "https://twitter.com/fogcityruby", class: "white-text", target: "_blank"
+
+

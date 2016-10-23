@@ -1,1 +1,30 @@
-// PUT CUSTOM SCSS / SASS HERE
+$default: #282565;
+
+h2, h3 {
+  font-weight: 500 !important;
+}
+
+p {
+  font-size: 18px;
+}
+
+.home-foggy-sutro-tower {
+  background: image-url('bastian-hoppe-foggy-sf-sunrise.jpg') no-repeat;
+  background-size: cover;
+  height: 700px;
+
+  a {
+    color: #b1dcfb;
+    text-decoration: underline;
+  }
+}
+
+.home-welcome-banner {
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 40px;
+}

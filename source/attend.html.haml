@@ -1,2 +1,36 @@
-.container
-  %h3.center Attend Fog City Ruby!
+%section
+  .container.mt20
+    .row
+      .col.s12
+        .section-header
+          %h3 Attend Fog City Ruby
+          %p.bold It's great!
+
+        %p
+          Fog City Ruby usually meets on the second Tuesday of the month at an office
+          in downtown San Francisco. We announce speaker lineups and manage RSVPs
+          #{ link_to "on Meetup", "http://www.meetup.com/fogcityruby/" }, so sign up
+          there to be notififed of our next event:
+          = link_to "http://www.meetup.com/fogcityruby", "http://www.meetup.com/fogcityruby/"
+
+        %hr
+
+        %p.bigger-text.bold Pronouns
+
+        %p
+          If you join us at a meetup, we'll ask you to write your pronouns on your name tag.
+          Want to learn more about why we do this? Bryn Mawr College has
+          #{link_to "a great writeup on why using someone's correct pronoun is important", "http://www.brynmawr.edu/pensby/documents/AskingforNameandPronouns.pdf", target: "_blank" }
+          that you can read through.
+
+        %hr
+
+        %p
+          Our code of conduct is really important to us! All attendees are required to read
+          and follow it at Fog City Ruby events. If you are harassed or notice someone being
+          harassed, please talk to an organizer as soon as possible; Fog City Ruby's organizers
+          are identified during the opening announcements at the beginning of every event.
+
+        %p Here's the complete code of conduct:
+
+        = partial 'partials/code-of-conduct'

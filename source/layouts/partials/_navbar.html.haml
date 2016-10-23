@@ -1,15 +1,25 @@
-%nav
+%nav.nav-overrides.z-depth-0.mt20.mb40
   .nav-wrapper.container
-    .brand-logo= link_to "Fog City Ruby", "/index.html"
-    %a.button-collapse{"data-activates" => "mobile-demo", :href => "#"}
-      %i.material-icons menu
-    %ul.right.hide-on-med-and-down
-      %li= link_to 'Attend', "/attend.html"
-      %li= link_to 'Speak', "/speak.html"
-      %li= link_to 'Host', "/host.html"
-      %li= link_to 'Learn More', "/learnmore.html"
-    %ul#mobile-demo.side-nav
-      %li= link_to 'Attend', "/attend.html"
-      %li= link_to 'Speak', "/speak.html"
-      %li= link_to 'Host', "/host.html"
-      %li= link_to 'Learn More', "/learnmore.html"
+    .row
+      %a.button-collapse{"data-activates" => "mobile", :href => "#"}
+        %i.material-icons.black-text menu
+      .brand-logo.center.hide-on-med-and-up
+        = link_to "/index.html" do
+          = image_tag "fogcitycutieruby.png", class: "logo"
+      .col.s5
+        %ul.hide-on-med-and-down.right
+          %li= link_to 'Attend', "/attend.html"
+          %li= link_to 'Speak', "/speak.html"
+      .col.s2.show-on-medium-and-up.hide-on-small-and-down.center-align
+        = link_to "/index.html" do
+          = image_tag "fogcitycutieruby.png", class: "logo"
+      .col.s5
+        %ul.hide-on-med-and-down
+          %li= link_to 'Host', "/host.html"
+          %li= link_to 'Learn More', "/learnmore.html"
+      %ul#mobile.side-nav
+        %li= link_to 'Home', "/index.html"
+        %li= link_to 'Attend', "/attend.html"
+        %li= link_to 'Speak', "/speak.html"
+        %li= link_to 'Host', "/host.html"
+        %li= link_to 'Learn More', "/learnmore.html"

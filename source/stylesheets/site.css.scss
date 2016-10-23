@@ -1,9 +1,10 @@
 @charset "utf-8";
 @import "normalize";
 
+@import "custom";
 @import "materialize/components/color";
-$primary-color: color("red", "accent-2") !default;
+$primary-color: $default !default;
 @import 'materialize';
 
-@import "stickyfooter";
-@import "custom";
+@import "utilities";
+@import "nav_and_footer";

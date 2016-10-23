@@ -1,3 +1,23 @@
-.container
-  %h3.center Fog City Ruby is awesome!
-  = image_tag("cutie-ruby.png")
+%section{ class: 'home-foggy-sutro-tower' }
+  .container.mt40
+    .row
+      .col.s10.offset-s1
+        .white-text
+          .home-welcome-banner
+            %h2.center
+              Fog City Ruby is a super rad meetup in San Francisco
+
+          .mt40
+            %p.bigger-text
+              We're a bunch of Rubyists and friends-of-Ruby, and we get together
+              each month to talk about programming and lots of other stuff.
+              = link_to "Join us on Meetup", "http://www.meetup.com/fogcityruby", target: "_blank"
+              to be notified of our next event!
+            %p.bigger-text
+              We usually meet on the second Tuesday of every month to host short (5-7 minute) and long (20 min)
+              talks on topics ranging from Ruby itself to Ruby-adjacent topics, like devops, front end,
+              human beings, or others! #{ link_to "Learn more about speaking", "/speak"}.
+            %p.bigger-text
+              We are dedicated to a harassment-free experience for everyone.
+              All attendees are required to read and abide by the
+              #{ link_to "Fog City Ruby code of conduct", "/code-of-conduct.html" }.
