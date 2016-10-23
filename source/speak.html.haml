@@ -2,18 +2,66 @@
   .container.mt20
     .row
       .col.s12
-        %h3.section-header Speak at Fog City Ruby!
+        .section-header
+          %h3 Speak at Fog City Ruby
+          %p Yes, you!
         %p
-          Speakers of all programming and speaking experience levels are welcome to submit talks,
-          and we’re especially excited to host speakers who come from populations that are
-          underrepresented in tech.
+          We want speakers of all programming and speaking experience levels to present at Fog City Ruby!
+          Really!
 
         %p
-          Submit a talk: http://tinyurl.com/fogcityrubycfp
+          From first-time to fiftieth-time speakers, and people with 3 months to 30 years of experience coding
+          &mdash; we want all of you to come speak. And we’re especially excited to host speakers who come from
+          populations that are underrepresented in tech, so double encouragement for you! (That's a lot
+          of encouragement. It's real!)
+
         %p
-          Our topic wishlist: https://github.com/fogcityruby/organizing/wiki/Topic-Wish-List
+          Talks can be shorter (5-7 minutes) or longer (20 minutes), and should be geared toward a
+          group of mixed-experience programmers. If you're thinking about doing a live demo, please
+          include that in your proposal &mdash; we generally discourage them, but if it's going to be
+          well-prepared, there is some wiggle room. We highly recommend you practice your talk with a
+          timer before giving it at Fog City Ruby; the organizers will help keep things running on time
+          and will give you a friendly signal when your time is up.
+
+        %hr
+
+        %h4 Our Call for Proposals
+
+        %p
+          We review submissions on an ongoing basis, and usually have talks scheduled a month or two out,
+          so #{ link_to "submit yours today", "http://tinyurl.com/fogcityrubycfp", target: "_blank" }!
+
+        %p
+          Not sure what to talk about? We like talks that are strictly about computers and talks
+          that are about what it's like to be a human building computer programs. We also have a
+          #{ link_to "topic wishlist", "https://github.com/fogcityruby/organizing/wiki/Topic-Wish-List", target: "_blank" }
+          that could provide you inspiration!
+
+        %p
+          If you're not quite ready to submit and want to talk to an organizer first, you can:
+          %ul.better-ul
+            %li
+              Send us a quick note via Meetup — visit #{ link_to "http://www.meetup.com/fogcityruby" }
+              and click "Contact" below the Organizers section of the left column.
+            %li
+              Hit us up #{ link_to "on Twitter", "https://twitter.com/fogcityruby", target: "_blank"}.
+            %li
+              Attend a meetup and ask us in person!
+
+        %p
+          But really, submit!!
+          #{ link_to "http://tinyurl.com/fogcityrubycfp", "http://tinyurl.com/fogcityrubycfp", target: "_blank" }
+
+        %hr
+
+        %h4 Code of Conduct & Speaking
+
         %p
           We are dedicated to a harassment-free experience for everyone.
           All speakers are expected to abide by the Fog City Ruby code of conduct, including
-          the content of their presentations.
-          The full Code of Conduct can be found here: http://fogcityruby.github.io/
+          the content of their presentations. The organizers reserve the right to interrupt
+          a talk if it is violating the code of conduct in a sufficiently severe manner.
+
+        %p Here's the complete code of conduct:
+
+        = partial 'partials/code-of-conduct'
