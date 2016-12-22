@@ -18,5 +18,16 @@ footer.footer-overrides {
   li {
     padding: 10px;
   }
+
+  .row {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+
+  .footer-col {
+    padding: 0 15px;
+  }
 }
 

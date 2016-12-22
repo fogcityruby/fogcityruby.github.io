@@ -2,6 +2,14 @@
 
 ### To develop
 
+Install Middleman(https://middlemanapp.com/) `gem install middleman`
+
+`bundle`
+
+`bundle exec middleman server`
+
+Navigate to http://localhost:4567
+
 Commit your changes to the `source` branch and push them up to GitHub.
 
 ### To deploy
