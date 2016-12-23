@@ -2,7 +2,7 @@
 
 ### To develop
 
-Install Middleman(https://middlemanapp.com/) `gem install middleman`
+Install [Middleman](https://middlemanapp.com/) `gem install middleman`
 
 `bundle`
 
