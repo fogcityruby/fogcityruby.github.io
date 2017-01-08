@@ -29,5 +29,14 @@ footer.footer-overrides {
   .footer-col {
     padding: 0 15px;
   }
-}
 
+  @media #{$small-and-down} {
+    .row {
+      display: block;
+    }
+
+    ul {
+      margin: 0;
+    }
+  }
+}
