@@ -4,6 +4,8 @@
 
 Install [Middleman](https://middlemanapp.com/) `gem install middleman`
 
+`git checkout source`
+
 `bundle`
 
 `bundle exec middleman server`
